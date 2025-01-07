@@ -67,10 +67,6 @@ Contributions are welcome! Follow these steps:
    ```
 5. Create a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Inspired by online code editors like CodePen and JSFiddle.
