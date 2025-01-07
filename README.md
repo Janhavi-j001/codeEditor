@@ -11,6 +11,10 @@ A dynamic and feature-rich web-based code editor built using React. This applica
 - **Screen Management**: Minimize and maximize sections for HTML, CSS, and JavaScript to focus on specific parts of your code.
 - **User-Friendly Interface**: A clean, intuitive UI that enhances the coding experience.
 
+## Demo
+
+Check out the live demo of the app [here](https://editor-codex.netlify.app/).
+
 ## Directory Structure
 
 ```
