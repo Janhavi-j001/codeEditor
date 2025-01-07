@@ -11,20 +11,38 @@ A dynamic and feature-rich web-based code editor built using React. This applica
 - **Screen Management**: Minimize and maximize sections for HTML, CSS, and JavaScript to focus on specific parts of your code.
 - **User-Friendly Interface**: A clean, intuitive UI that enhances the coding experience.
 
+## Directory Structure
+
+```
+code-editor-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── App.js
+│   │   └── Editor.js
+│   ├── Hooks/
+│   │   └── useLocalStorage.js
+│   ├── index.js
+│   └── index.css
+├── package.json
+└── README.md
+```
+
 ## Technologies Used
 
 - **Frontend**: React.js
 - **State Management**: React Context API
 - **Styling**: CSS
-- **Bundling**: Webpack
-- **Build Tool**: Vite (optional, based on your setup)
+- **CodeMirror**: For syntax highlighting and code editing
+- **FontAwesome**: For toolbar icons
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/janhavi-j001/codeEditor.git
-   cd code-editor-app
+   git clone https://github.com/janhavi-j001/code-editor.git
+   cd code-editor
    ```
 
 2. Install dependencies:
@@ -32,12 +50,17 @@ A dynamic and feature-rich web-based code editor built using React. This applica
    npm install
    ```
 
-3. Start the development server:
+3. Install required libraries:
+   ```bash
+   npm install codemirror react-codemirror2 @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons
+   ```
+
+4. Start the development server:
    ```bash
    npm start
    ```
 
-4. Open your browser and navigate to:
+5. Open your browser and navigate to:
    ```
    http://localhost:3000
    ```
@@ -47,6 +70,13 @@ A dynamic and feature-rich web-based code editor built using React. This applica
 1. Write your code in the provided HTML, CSS, and JavaScript editors.
 2. See the output rendered in real time in the preview pane.
 3. Use the syntax suggestions and error highlighting to refine your code.
+
+## Key Dependencies
+
+- `codemirror`: Provides the core editor functionality.
+- `react-codemirror2`: React integration for CodeMirror.
+- `@fortawesome/react-fontawesome`: React components for FontAwesome icons.
+- `@fortawesome/free-solid-svg-icons`: A collection of FontAwesome solid icons.
 
 ## Contribution Guidelines
 
@@ -66,10 +96,3 @@ Contributions are welcome! Follow these steps:
    git push origin feature-name
    ```
 5. Create a pull request.
-
-## Acknowledgments
-
-- Inspired by online code editors like CodePen and JSFiddle.
-- Thanks to the React community for their invaluable resources.
-
----
